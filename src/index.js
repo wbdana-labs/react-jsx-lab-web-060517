@@ -5,11 +5,9 @@ import RegistrationForm from './components/RegistrationForm';
 import Webpage from './components/Webpage';
 
 ReactDOM.render(
-  (
     <div>
       <RegistrationForm />
       <Webpage />
-    </div>
-  ),
+    </div>,
   document.getElementById('root')
 );
